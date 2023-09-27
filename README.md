@@ -14,8 +14,8 @@ Guest/Server: Ubuntu server in which you installed the simulator
 6) Install `gdb` extension, which installs in your server.
 7) Go to `Run and Debug` window (CTRL+SHIFT+D), then create a launch.json and select GDB.
 8) Use below setting as an example. Check if the path of executable (`program` field) and config (`cwd` for example) of below to be correct.
-   ```
-   {
+```
+{
   // Use IntelliSense to learn about possible attributes.
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
