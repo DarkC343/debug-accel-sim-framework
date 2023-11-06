@@ -1,0 +1,188 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "gaussian_matrix4",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/gaussian-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__gaussian_matrix4/",
+      "args": ["-f", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/gaussian-rodinia-3.1/data/matrix4.txt"]
+    },
+      
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "bfs_4096",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/bfs-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__bfs_4096/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/bfs-rodinia-3.1/data/graph4096.txt"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "gaussian_16",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/gaussian-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__gaussian_16/",
+      "args": ["-s", "16"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "hotspot_512",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/hotspot-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__hotspot_512/",
+      "args": ["512", "2", "2", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/hotspot-rodinia-3.1/data/temp_512", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/hotspot-rodinia-3.1/data/power_512", "output.out"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "dwt2d_192x192",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/dwt2d-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__dwt2d_192x192/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/dwt2d-rodinia-3.1/data/192.bmp", "-d", "192x192", "-f", "-5", "-l", "3"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "bfs_65536",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/bfs-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__bfs_65536/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/bfs-rodinia-3.1/data/graph65536.txt"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "gaussian_64",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/gaussian-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__gaussian_64/",
+      "args": ["-s", "64"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lud_256",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lud-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__lud_256/",
+      "args": ["-s", "256", "-v"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "backprop",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/backprop-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__backprop/",
+      "args": ["65536"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "dwt2d_1024x1024",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/dwt2d-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__dwt2d_1024x1024/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/dwt2d-rodinia-3.1/data/rgb.bmp", "-d", "1024x1024", "-f", "-5", "-l", "3"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "b+tree",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/b+tree-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__b+tree/",
+      "args": ["file", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/b+tree-rodinia-3.1/data/mil.txt", "command", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/b+tree-rodinia-3.1/data/command.txt"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "hotspot_1024",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/hotspot-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__hotspot_1024/",
+      "args": ["1024", "2", "2", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/hotspot-rodinia-3.1/data/temp_1024", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/hotspot-rodinia-3.1/data/power_1024", "output.out"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lud_512",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lud-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__lud_512/",
+      "args": ["-i", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/lud-rodinia-3.1/data/512.dat"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "gaussian_matrix208",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/gaussian-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__gaussian_matrix208/",
+      "args": ["-f", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/gaussian-rodinia-3.1/data/matrix208.txt"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "gaussian_256",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/gaussian-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__gaussian_256/",
+      "args": ["-s", "256"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "bfs_1M",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/bfs-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__bfs_1M/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/rodinia/3.1/bfs-rodinia-3.1/data/graph1MW_6.txt"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "nw",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/nw-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__nw/",
+      "args": ["2048", "10"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "srad_v1",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/srad_v1-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__srad_v1/",
+      "args": ["100", "0.5", "502", "458"]
+    },
+    
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lavaMD",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lavaMD-rodinia-3.1",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__lavaMD/",
+      "args": ["-boxes1d", "10"]
+    },
+
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "parboil-histo",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/parboil-histo",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/parboil__histo/",
+      "args": ["-i", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/parboil/parboil-histo/data/default/input/img.bin", "-o", "ref.bmp", "--", "20", "4"]
+    }
+
+  ]
+}
