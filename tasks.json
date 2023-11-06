@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build_Simulator",
+			"command": "make",
+			"options": {
+				"cwd": "/home/MY_USERNAME/accel-sim-framework/gpu-simulator/gpgpu-sim"
+			},
+			"group": "build",
+		}
+	]
+}
