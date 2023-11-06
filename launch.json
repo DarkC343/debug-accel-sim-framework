@@ -173,16 +173,6 @@
       "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lavaMD-rodinia-3.1",
       "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__lavaMD/",
       "args": ["-boxes1d", "10"]
-    },
-
-    {
-      "type": "cppdbg",
-      "request": "launch",
-      "name": "parboil-histo",
-      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/parboil-histo",
-      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/parboil__histo/",
-      "args": ["-i", "/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/parboil/parboil-histo/data/default/input/img.bin", "-o", "ref.bmp", "--", "20", "4"]
     }
-
   ]
 }
