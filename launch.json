@@ -173,6 +173,247 @@
       "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lavaMD-rodinia-3.1",
       "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/rodinia_3_1__lavaMD/",
       "args": ["-boxes1d", "10"]
+    },
+
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_atomic__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-atomic",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_atomic__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-atomic/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_atomic__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-atomic",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_atomic__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-atomic/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_atomic__USA_road_d_NY_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-atomic",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_atomic__USA_road_d_NY_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-atomic/data/USA-road-d.NY.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wlw__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wlw",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wlw__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-wlw/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wlw__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wlw",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wlw__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-wlw/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wlw__USA_road_d_NY_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wlw",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wlw__USA_road_d_NY_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-wlw/data/USA-road-d.NY.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wla__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wla",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wla__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wla__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wla",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wla__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wla__USA_road_d_NY_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wla",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wla__USA_road_d_NY_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs/data/USA-road-d.NY.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp__USA_road_d_NY_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp__USA_road_d_NY_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp/data/USA-road-d.NY.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wlc__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wlc",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wlc__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wlc/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wlc__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wlc",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wlc__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wlc/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wln__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wln",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wln__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wln/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wln__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wln",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wln__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wln/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wln__USA_road_d_NY_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wln",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wln__USA_road_d_NY_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wln/data/USA-road-d.NY.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wln__USA_road_d_FLA_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wln",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wln__USA_road_d_FLA_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wln/data/USA-road-d.FLA.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_sssp_wln__USA_road_d_USA_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-sssp-wln",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_sssp_wln__USA_road_d_USA_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-sssp-wln/data/USA-road-d.USA.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wlc__r4_2e20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wlc",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wlc__r4_2e20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-wlc/data/r4-2e20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wlc__rmat20_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wlc",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wlc__rmat20_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-wlc/data/rmat20.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bfs_wlc__USA_road_d_NY_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bfs-wlc",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bfs_wlc__USA_road_d_NY_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-bfs-wlc/data/USA-road-d.NY.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bh__30000_50_0",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bh",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bh__30000_50_0/",
+      "args": ["30000", "50", "0"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bh__300000_10_0",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bh",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bh__300000_10_0/",
+      "args": ["300000", "10", "0"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_bh__3000000_2_0",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-bh",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_bh__3000000_2_0/",
+      "args": ["3000000", "2", "0"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_dmr__250k_2_20",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-dmr",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_dmr__250k_2_20/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-dmr/data/250k.2", "20"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_dmr__r1M_20",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-dmr",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_dmr__r1M_20/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-dmr/data/r1M", "20"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_mst__rmat12_sym_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-mst",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_mst__rmat12_sym_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-mst/data/rmat12.sym.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_mst__USA_road_d_FLA_sym_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-mst",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_mst__USA_road_d_FLA_sym_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-mst/data/USA-road-d.FLA.sym.gr"]
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "lonestar_mst__2d_2e20_sym_gr",
+      "program": "/home/MY_USERNAME/gpu-app-collection-1.0.1/bin/11.0/release/lonestar-mst",
+      "cwd": "/home/MY_USERNAME/ARBITRARY_PATH/lonestar_mst__2d_2e20_sym_gr/",
+      "args": ["/home/MY_USERNAME/gpu-app-collection-1.0.1/data_dirs/cuda/lonestargpu-2.0/lonestar-mst/data/2d-2e20.sym.gr"]
     }
   ]
 }
